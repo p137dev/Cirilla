@@ -23,19 +23,26 @@ The *Cirilla.rb* file is the core plugin.
 
 Cirilla has the following commands:
 
-`set_gm <user_nick>`: sets the GM (game master) to a specified person. Once this is done, the only person who can transfer GM rights to another person is the GM himself or a channel operator. GM rights are required to execute most of the commands.
+* `set_gm <user_nick>`
+Sets the GM (game master) to a specified person. Once this is done, the only person who can transfer GM rights to another person is the GM himself or a channel operator. GM rights are required to execute most of the commands.
 
-`log <line>`: there may be chatter on the IRC channel (and it's good!), but none of it is logged until someone uses that command. If a player decides on a action, they use this command to log the action. It's timestamped to prevent time paradoxes :)
+* `log <line>`
+There may be chatter on the IRC channel (and it's good!), but none of it is logged until someone uses that command. If a player decides on a action, they use this command to log the action. It's timestamped to prevent time paradoxes :)
 
-`brief`: a command to be used by a GM on a query with a bot (`/msg <botname> :brief`). Returns all the logged lines for GM's consideration. 
+* `brief`
+A command to be used by a GM on a query with a bot (`/msg <botname> :brief`). Returns all the logged lines for GM's consideration. 
 
-`add_eq <player> <thing>`: GM command. Adds a thing to player's inventory.
+* `add_eq <player> <thing>`
+GM command. Adds a thing to player's inventory.
 
-`rm_eq <player> <thing>`: An opposite GM command. Removes a thing from player's inventory. Simple.
+* `rm_eq <player> <thing>`
+An opposite GM command. Removes a thing from player's inventory. Simple.
 
-`list_eq <player>`: Lists the player's EQ. Any player can use it.
+* `list_eq <player>`
+Lists the player's EQ. Any player can use it.
 
-`next_turn`: GM command. Deletes the action log and increments the turn counter.
+* `next_turn`
+GM command. Deletes the action log and increments the turn counter.
 
 ### Additional notes
 
