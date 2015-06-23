@@ -11,7 +11,7 @@ You also need the Cinch gem. You can install it by running:
 
 Now you have to clone the repository wherever you want. The command for this is:
 
-`git clone https://github.com/p137dev/cirilla.git`
+`git clone https://github.com/p137dev/Cirilla.git`
 
 The *samplebot.rb* file contains configuration. Change the bot's name and channel there. Additional (advanced) configuration for this file can be found [here](https://github.com/cinchrb/cinch/blob/master/docs/bot_options.md).
 
